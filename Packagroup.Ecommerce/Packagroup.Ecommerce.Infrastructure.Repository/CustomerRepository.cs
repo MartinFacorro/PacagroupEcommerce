@@ -95,6 +95,26 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
             }
         }
 
+
+        public Customer Get(string CustomerId)
+        {
+            using (var connection = _connectionFactory.GetConnection)
+            {
+                var query = "CustomerGetByID";
+
+                var parameters = new DynamicParameters();
+
+                parameters.Add("Customerld", CustomerId);
+
+                var customer = connection.QuerySingle<Customer>(query, param: parameters, commandType: CommandType.StoredProcedure);
+
+                return customer;
+
+
+            }
+        }
+
+
         public Customer GetAll(string CustomerId)
         {
             using (var connection = _connectionFactory.GetConnection)
@@ -206,9 +226,22 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
             }
         }
 
-        public Task<Customer> GetAsync(string CustomerId)
-        { 
-        
+        public async Task<Customer> GetAsync(string CustomerId)
+        {
+            using (var connection = _connectionFactory.GetConnection)
+            {
+                var query = "CustomerGetByID";
+
+                var parameters = new DynamicParameters();
+
+                parameters.Add("Customerld", CustomerId);
+
+                var customer = await connection.QuerySingleAsync<Customer>(query, param: parameters, commandType: CommandType.StoredProcedure);
+
+                return customer;
+
+
+            }
         }
 
 
