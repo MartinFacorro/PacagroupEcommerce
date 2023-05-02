@@ -19,3 +19,4 @@ namespace Packagroup.Ecommerce.Domain.Entity
         public string Fax { get; set; }
 
     }
+}
