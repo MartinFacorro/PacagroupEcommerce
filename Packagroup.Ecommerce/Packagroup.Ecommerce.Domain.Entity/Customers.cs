@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Packagroup.Ecommerce.Domain.Entity
 {
-    public class Customer
+    public class Customers
     {
         public string Customerld { get; set; }
         public string CompanyName { get; set; }

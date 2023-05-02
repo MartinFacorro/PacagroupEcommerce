@@ -4,11 +4,11 @@ using System.Text;
 using Packagroup.Ecommerce.Domain.Entity;
 using System.Threading.Tasks;
 
-
-namespace Packagroup.Ecommerce.Infrastructure.Interface
+namespace Packagroup.Ecommerce.Domain.Interface
 {
-    public interface ICustomerRepository
+    public interface ICustomersDomain
     {
+
         //METODOS DEl OBJETO DE DOMINIO CUSTOMERS
 
         #region METODO SINCRONOS

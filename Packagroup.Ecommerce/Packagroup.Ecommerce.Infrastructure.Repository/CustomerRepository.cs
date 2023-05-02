@@ -20,7 +20,7 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
         }
 
         #region Metodos Sincronos
-        public bool Insert(Customer customer)
+        public bool Insert(Customers customer)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
@@ -48,7 +48,7 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
             }
         }
 
-        public bool Update(Customer customer)
+        public bool Update(Customers customer)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
@@ -96,7 +96,7 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
         }
 
 
-        public Customer Get(string CustomerId)
+        public Customers Get(string CustomerId)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
@@ -106,7 +106,7 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
 
                 parameters.Add("Customerld", CustomerId);
 
-                var customer = connection.QuerySingle<Customer>(query, param: parameters, commandType: CommandType.StoredProcedure);
+                var customer = connection.QuerySingle<Customers>(query, param: parameters, commandType: CommandType.StoredProcedure);
 
                 return customer;
 
@@ -115,7 +115,7 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
         }
 
 
-        public Customer GetAll(string CustomerId)
+        public Customers GetAll(string CustomerId)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
@@ -125,7 +125,7 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
 
                 parameters.Add("Customerld", CustomerId);
 
-                var customer = connection.QuerySingle<Customer>(query, param: parameters, commandType: CommandType.StoredProcedure);
+                var customer = connection.QuerySingle<Customers>(query, param: parameters, commandType: CommandType.StoredProcedure);
 
                 return customer;
 
@@ -133,13 +133,13 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
             }
         }
 
-        public IEnumerable<Customer> GetAll()
+        public IEnumerable<Customers> GetAll()
         {
             using (var connection = _connectionFactory.GetConnection)
             {
                 var query = "CustomerList";
 
-                var customers = connection.Query<Customer>(query, commandType: CommandType.StoredProcedure);
+                var customers = connection.Query<Customers>(query, commandType: CommandType.StoredProcedure);
 
                 return customers;
             }
@@ -151,7 +151,7 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
 
         #region Metodos Asincronos
 
-        public async Task<bool> InsertAsync(Customer customer)
+        public async Task<bool> InsertAsync(Customers customer)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
@@ -179,7 +179,7 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
             }
         }
 
-        public async Task<bool> UpdateAsync(Customer customer)
+        public async Task<bool> UpdateAsync(Customers customer)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
@@ -226,7 +226,7 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
             }
         }
 
-        public async Task<Customer> GetAsync(string CustomerId)
+        public async Task<Customers> GetAsync(string CustomerId)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
@@ -236,7 +236,7 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
 
                 parameters.Add("Customerld", CustomerId);
 
-                var customer = await connection.QuerySingleAsync<Customer>(query, param: parameters, commandType: CommandType.StoredProcedure);
+                var customer = await connection.QuerySingleAsync<Customers>(query, param: parameters, commandType: CommandType.StoredProcedure);
 
                 return customer;
 
@@ -246,7 +246,7 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
 
 
 
-        public async Task<Customer> GetAllAsync(string CustomerId)
+        public async Task<Customers> GetAllAsync(string CustomerId)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
@@ -256,7 +256,7 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
 
                 parameters.Add("Customerld", CustomerId);
 
-                var customer = await connection.QuerySingleAsync<Customer>(query, param: parameters, commandType: CommandType.StoredProcedure);
+                var customer = await connection.QuerySingleAsync<Customers>(query, param: parameters, commandType: CommandType.StoredProcedure);
 
                 return customer;
 
@@ -264,13 +264,13 @@ namespace Packagroup.Ecommerce.Infrastructure.Repository
             }
         }
 
-        public async Task<IEnumerable<Customer>> GetAllAsync()
+        public async Task<IEnumerable<Customers>> GetAllAsync()
         {
             using (var connection = _connectionFactory.GetConnection)
             {
                 var query = "CustomerList";
 
-                var customers = await connection.QueryAsync<Customer>(query, commandType: CommandType.StoredProcedure);
+                var customers = await connection.QueryAsync<Customers>(query, commandType: CommandType.StoredProcedure);
 
                 return customers;
             }
