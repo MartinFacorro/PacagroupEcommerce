@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q4gJ9D2Pr6crPpjHDBbkfgKSHRX1RtWpldgUkDOiEkgRo+dw7eIDfw7eNYqKw0ksTlNAdwU4WkuNVdtpvDU+8g==",
+  "success": true,
+  "projectFilePath": "C:\\GITHUB\\PacagroupEcommerce\\Pacagroup.Ecommerce.Application.DTO\\Pacagroup.Ecommerce.Application.DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
