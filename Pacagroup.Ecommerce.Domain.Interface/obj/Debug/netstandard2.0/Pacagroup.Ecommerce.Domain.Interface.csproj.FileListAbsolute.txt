@@ -9,4 +9,16 @@ C:\Workspace\Arquitectura .NET\Student\Code\Pacagroup.Ecommerce\Pacagroup.Ecomme
 C:\Workspace\Arquitectura .NET\Student\Code\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.csproj.CopyComplete
 C:\Workspace\Arquitectura .NET\Student\Code\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.dll
 C:\Workspace\Arquitectura .NET\Student\Code\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.pdb
-C:\Workspace\Arquitectura .NET\Student\Code\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.csprojAssemblyReference.cache
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\bin\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.deps.json
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\bin\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.dll
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\bin\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.pdb
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\bin\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Entity.dll
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\bin\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Entity.pdb
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.csproj.AssemblyReference.cache
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.AssemblyInfoInputs.cache
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.AssemblyInfo.cs
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.csproj.CoreCompileInputs.cache
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.csproj.CopyComplete
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.dll
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Domain.Interface.pdb

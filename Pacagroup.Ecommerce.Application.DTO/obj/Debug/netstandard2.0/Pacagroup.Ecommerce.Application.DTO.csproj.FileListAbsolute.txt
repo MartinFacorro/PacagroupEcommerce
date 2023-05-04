@@ -6,3 +6,13 @@ C:\Workspace\Arquitectura .NET\Student\Code\Pacagroup.Ecommerce\Pacagroup.Ecomme
 C:\Workspace\Arquitectura .NET\Student\Code\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.AssemblyInfo.cs
 C:\Workspace\Arquitectura .NET\Student\Code\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.dll
 C:\Workspace\Arquitectura .NET\Student\Code\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.pdb
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Application.DTO\bin\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.deps.json
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Application.DTO\bin\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.dll
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Application.DTO\bin\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.pdb
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.csproj.AssemblyReference.cache
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.AssemblyInfoInputs.cache
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.AssemblyInfo.cs
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.csproj.CoreCompileInputs.cache
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.dll
+C:\GITHUB\PacagroupEcommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.0\Pacagroup.Ecommerce.Application.DTO.pdb
